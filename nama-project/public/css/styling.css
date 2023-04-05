@@ -1,0 +1,153 @@
+body{
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+/* Landing Page*/
+.name {
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 580px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 100px;
+    background-color: white;
+}
+.navbar ul li  {
+    padding: 10px;
+    display: inline-block;
+}
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    text-align:center ;
+    color: black;
+
+}
+
+.hero {
+    height: 500px;
+    background-size:cover ;
+    background-image:none ;
+    background-color: black;
+}
+.texthero {
+    
+    margin-top: 80px;
+    margin-bottom: 90px;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    float: left;
+    color: white;
+    text-align: justify;
+}
+
+.text-artikel {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    height: 100px;
+    color: black;
+    text-align: justify;
+}
+
+
+.highlight-artikel {
+    display: inline-block;
+    margin: 200px;
+    padding: 10px;
+
+}
+.content-container {
+    height: 489spx;
+    background: white;
+    margin: 100px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.content-container .card {
+    background: #2b3030;
+    height: 100%;
+    color: #f5f5f5;
+}
+
+.card h1 {
+    font-size: 20px;
+
+}
+.card > card-body {
+    padding: 20px;
+}
+.card {
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+}
+
+.card > img {
+    object-fit: cover;
+    height: 247px;
+    width: 100%;
+}
+
+.card > .card-body {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0  15px 0 0;
+}
+
+
+/*artikel*
+.hero {
+    height: 350px;
+    background-image:url(/img/HeroArticle.jpeg);
+    background-size: cover;
+    border-bottom:10px solid goldenrod ;
+}
+
+.artikel  {
+    padding: 170px;
+    padding-top: 40px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: 'Source Serif' ;
+    font-weight: bold;
+}
+.artikel p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+}
+.contoh {
+    padding: 20px;
+    border: 50px ;
+    margin: 100px;
+    
+}

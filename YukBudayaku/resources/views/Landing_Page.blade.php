@@ -9,131 +9,207 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 </head>
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-  <section class="nav">
-    <div class="name">
-      <h1>YUKBUDAYAKU</h1>
-    </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="#">Selamat Datang</a></li>
-        <li><a href="/Artikel.html">Artikel Budaya</a></li>
-        <li><a href="#">Destinasi Budaya</a></li>
-        <li><a href="#">about us</a></li>
-        <li><a href="#"><img src="/img/Landingpage/Vector.svg"></a></li>
-      </ul>
-    </div>
-  </section>
-  <section class="hero">
-    <div class="texthero">
-      <h1>Lestarikan Budaya Kita Bersama <span style="color :goldenrod">YuBu</span> </h1>
-      <p>
-          Ayo, mari kita jelajahi dan belajar tentang keundahan budaya dari berbagai penjuru Nusantara bersama
-          kami disini! Temukan pengalaman belajar yang menarik dan memuaskan tentang warisan budaya yang kaya dan mempesona
-      </p>
-    </div>
-  </section>
-  <section class="landing-artikel">
-    <div class="text-artikel">
-      <h1><u>Destinasi Kebudayaan</u></h1>
-      <p>Eksplorasi destinasi kebudayaan yang memukau dan memesoan di seluruh nusantara <a href="#"><span></span style="text-align:end"> view all</a></p>
-    </div>
-    <section class ="content-container">
-      <div class="card">
-          <img src="asset/image/Artikel/Barong.jpg"  alt="card1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <section class="header">
+        <div class="logo">
+            <h1>YUKBUDAYAKU</h1>
+        </div>
+        <div class="nav">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Selamat Datang</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artikel Budaya</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"href="#">Destinasi Budaya</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="/profile.png" alt ="profile"></a>
+                </li> 
+              </ul>
+        </div>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <h1>Lestarikan Budaya kita bersama YuBu</h1>
+        <p>Ayo, mari kita jelajahi dan belajar tentang keindahan budaya dari berbagai penjuru Nusantara bersama kami di sini!  
+            Temukan pengalaman belajar yang menarik dan memuaskan tentang warisan budaya yang kaya dan mempesona.
+        </p>
+      </div>
+    </section>
+    <section class="showcase">
+      <h1>Jelajahi Artikel</h1>
+      <div class="container">
+        <p>Jelajahi warisan budaya Indonesia yang kaya dan bervariasi melaui artikel terbaru yang kami sajikan. </p>
+        <a href="#"> view all</a>
+      </div>
+      <div class="container">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" height="200px "width="200px" src="/img/Landingpage/highlight-artikel1.jpeg" alt="Card image cap">
           <div class="card-body">
-            <center><h1>Theater Barong</h1></center>
-            <p class="card-text">Barong adalah salah satu bentuk teater tradisional yang berasal dari Bali, Indonesia
-                                 Dalam pertunjukan Barong, aktor mengenakan kostum berbentuk kepala singa...</p>
+            <p>Bali</p>
+            <h5 class="card-title text-center">Theater Barong</h5>
+            <p class="card-text">
+              Barong adalah salah satu bentuk teater tradisional yang berasal dari Bali, Indonesia. 
+              Dalam pertunjukan Barong, aktor mengenakan kostum berbentuk kepala singa . . .
+            </p>
           </div>
         </div>
-        <div class="card">
-          <img src="/img/Landingpage/highlight-artikel1.jpeg"  alt="card2">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" height="200px "width="200px" src="/img/Landingpage/highlight-artikel2.jpeg" alt="Card image cap">
           <div class="card-body">
-            <span><h3>Bali</h3></span>
-            <center><h1>Indahnya Alunan Gamelan</h1></center>
-            <p class="card-text">Alunan gamelan begitu indah dan memukau memancarkan kekayaan dan keindahan
-                                 musik tradisional Indonesia...</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <p>Jawa Tengah</p>
+            <h5 class="card-title text text-center">Indahnya Alunan Gamelan</h5>
+            <p class="card-text">
+              Alunan gamelan begitu indah dan memukau, 
+              memancarkan kekayaan dan keindahan musik tradisional Indonesia. . .
+            </p>
           </div>
         </div>
-        <div class="card">
-          <img src="asset/image/Artikel/Tenun.jpeg"  alt="card3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top " height="200px "width="200px" src="/img/Landingpage/highlight-artikel3.jpeg" alt="Card image cap">
           <div class="card-body">
-            <center><h1>Membuat Kain tradisional Baduy</h1></center>
-            <p class="card-text">Proses penenunan kain Baduy biasanya dilakukan oleh perempuan dengan cara yang sama seperti
-                                 yang dilakukan oleh pendahulu mereka selama berabad-abad...</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <p>Jawa Tengah</p>
+            <h5 class="card-title text-center" >Membuat Kain Tradisional Badut</h5>
+            <p class="card-text">
+              Proses penenunan kain Baduy biasanya dilakukan oleh perempuan dengan cara yang sama seperti yang dilakukan oleh pendahulu mereka selama berabad-abad. . .
+            </p>
           </div>
         </div>
-      </section>
-  </section>
-  <section class="landing-artikel">
-    <div class="text-artikel">
-      <h1><u>Destinasi Kebudayaan</u></h1>
-      <p>jelajahi warisan budaya Indonesia yang kaya dan bervariasi melalui artikel terbaru yang kami sajikan &nbsp &nbsp <a href="#"><span></span style="text-align:end"> view all</a></p>
-    </div>
-    <div class="highlight-artikel">
-      <div class="card" style="width: 18rem;">
-        <img src="/img/Landingpage/highlight-artikel1.jpeg" class="card-img-top" alt="highlight1" style="width:100%">
-        <div class="card-body">
-          <h5 class="card-title">Theater Barong</h5>
-          <p class="card-text">Barong adalah salah satu bentuk teater tradisional yang berasal dari Bali, Indonesia. Dalam pertunjukan Barong, aktor mengenakan kostum berbentuk kepala singa . . .</p>
-        </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/img/Landingpage/highlight-artikel2.jpeg" class="card-img-top" alt="highlight2" style="width:100%">
-        <div class="card-body">
-          <h5 class="card-title">Indahnya Alunan Gamelang</h5>
-          <p class="card-text">Alunan gamelan begitu indah dan memukau, memancarkan kekayaan dan keindahan musik tradisional Indonesia. . .</p>
-        </div>
+    </section>
+    <section class="showcase">
+      <h1>Destinasi Kebudayaan</h1>
+      <div class="container">
+        <p>Eksplorasi destinasi kebudayaan yang memukau dan memesona di seluruh Nusantara </p>
+        <a href="#"> view all</a>
       </div>
-      <div class="card" style="width: 18rem;">
-          <img src="/img/Landingpage/highlight-artikel3.jpeg" class="card-img-top" alt="highlight3" style="width:100%">
+      <div class="container">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" height="200px" width="200px" src="/img/Landingpage/highlight-destinasi1.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Membuat Kain Tradisional Baduy</h5>
-            <p class="card-text">Proses penenunan kain Baduy biasanya dilakukan oleh perempuan dengan cara yang sama seperti yang dilakukan oleh pendahulu mereka selama berabad-abad. . .</p>
+            <p>Bali</p>
+            <h5 class="card-title text-center">Wisata Tanah Lot</h5>
+            <p class="card-text">
+              Tanah Lot adalah sebuah destinasi wisata yang terkenal di Bali, 
+              Indonesia. Tempat ini terletak di pesisir barat daya Bali dan terkenal . . .
+            </p>
           </div>
-      </div>
-    </div>
-  </section>
-  <section class="hero">
-    <div class="texthero">
-      <h1>Tentang Kami</h1>
-      <p>
-        Website yang bernama “YuBu: Yuk BudayaKu” ini dikembangkan dengantujuan sebagai  sarana edukasi agar masyarakat dapat melestarikan budaya asli Indonesia. 
-      </p>
-      <p>
-        Website ini memiliki fitur-fitur yang dapat membantu masyarakat dalam mengetahui destinasi wisata budaya di Indonesia, belajar bahasa daerah, belajar kesenian dll.
-      </p>
-    </div>
-    <div class="video-aboutus">
-      <video width="320" height="240" controls>
-        <source src="https://www.youtube.com/watch?v=DOsFf4U5p5w" type="video/mp4">
-      Your browser does not support the video tag.
-      </video>
-    </div>
-  </section>
-  <section class="gallery">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="..." alt="First slide">
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Second slide">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" height="200px" width="200px" src="/img/Landingpage/highlight-destinasi2.jpeg"alt ="Card image cap">
+          <div class="card-body">
+            <p>Jawa Tengah</p>
+            <h5 class="card-title text text-center">Candi Prambanan</h5>
+            <p class="card-text">
+              Candi Prambanan adalah sebuah kompleks candi Hindu yang terletak di Jawa Tengah, 
+              Indonesia, sekitar 17 kilometer timur laut Yogyakarta. . .
+            </p>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Third slide">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top " height="200px" width="200px" src="/img/Landingpage/highlight-destinasi3.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <p>Jawa Tengah</p>
+            <h5 class="card-title text-center" >Candi Borobudur</h5>
+            <p class="card-text">
+              Candi Borobudur adalah sebuah situs candi Buddha yang terletak di Magelang, 
+              Jawa Tengah, Indonesia. Candi ini dibangun pada . . .
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="FAQ">
-    <div>
-      
-    </div>
-  </section>     
+    </section>
+    <section class="abt">
+      <div class="container">
+        <div class="about">
+          <h1>Tentang Kami</h1>
+          <p>Website yang bernama “YuBu: Yuk BudayaKu” ini dikembangkan dengantujuan sebagai  sarana edukasi agar masyarakat dapat melestarikan budaya asli Indonesia. 
+          </p>
+          <p>  
+            Website ini memiliki fitur-fitur yang dapat membantu masyarakat dalam mengetahui destinasi wisata budaya di Indonesia, belajar bahasa daerah, belajar kesenian dll.
+          </p>
+        </div>
+        <div class="video">
+          <iframe height="250px" width="400px" src ="https://www.youtube-nocookie.com/embed/7cjVj1ZyzyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></iframe>
+        </div>
+      </div>
+     
+    </section>
+    <section class="carousel">
+      <div class="container">
+        
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container">
+        
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <h1>Jelajahi Kebudayaan Bersama YuBu</h1>
+        <p>Temukan berbagai pengetahuan budaya yang menarik dan tentunya bermanfaat untuk anda</p>
+        <div class="but">
+          <button type="button" width="50%" class="btn btn-info">Daftar Sekarang</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="contain">
+        <div class="container">
+          <p>Tentang Kami</p>
+          <ul>
+            <li>Our Story</li>
+            <li>Why Us</li>
+            <li>How It Works</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="container">
+          <p>Partner Kami</p>
+          <ul>
+            <li>Kemendikbud</li>
+            <li>Pariwisata Indonesia</li>
+            <li>Budayawan Lokal</li>
+          </ul>
+        </div>
+        <div class="container">
+          <p>Get Inspired</p>
+          <ul>
+            <li>Our Story</li>
+            <li>Why Us</li>
+            <li>How It Works</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="container">
+          <p>Support</p>
+          <ul>
+            <li>Help</li>
+            <li>Contact Us</li>
+            <li>Privacy Policy</li>
+            <li>Term of service</li>
+            <li>Complaint Policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="contain">
+        <div>
+          <p>Sign Up untuk Notifikasi</p>
+          <p>Dapatkan Notifikasi seputar artikel dan informasi budaya terbaru </p>
+        </div>
+        <input type="text" width="100%">
+        <button type="button" width="50%" class="btn btn-warning">Join the Waiting list</button>
+      </div>
+    </footer>
 </body>
 </html>
       

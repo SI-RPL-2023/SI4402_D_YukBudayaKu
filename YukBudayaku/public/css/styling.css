@@ -140,3 +140,40 @@
     
 }
 
+.artikel-header {
+    padding: 20px;
+    margin: auto;
+    height:400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/Landingpage/highlight-artikel1.jpeg);
+}
+
+.artikel-content {
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    padding: 90px;
+}
+
+.artikel-content h1 {
+    text-align: center;
+}
+
+.artikel-content p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+.artikel-showcase {
+    display: flex;
+    flex:wrap ;
+}
+
+.artikel-showcase .artikel-img {
+    flex:auto;
+    text-align: center;
+    margin: 0px;
+}
+

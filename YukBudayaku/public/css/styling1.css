@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
 
 .nav  a {
     color: black;
@@ -34,12 +40,14 @@
 }
 
 .hero {
-    background-image: url(img/Landingpage/hero.jpeg);
-    background: black ;
-    color: #fff;
-    height: 400px;
+    background-image: url(/YukBudayaku/public/img/Landingpage/hero.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     object-fit: cover;
-    align-content: center;
+    color: white;
+    height: 400px;
 }
 
 .hero .container {
@@ -120,7 +128,6 @@
     justify-content: center;
 }
 
-
 .footer {
     background-color: black;
     color: white;
@@ -194,4 +201,26 @@ details div{
     border-radius: 10px;
     line-height: 2;
     margin-bottom: 40px;
+}
+
+.hero2 {
+    background-image: url(/YukBudayaku/public/img/Landingpage/hero2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.hero2 .container {
+    width: 30%;
+    padding: 100px 0px;
+    margin-left: 15%;
+    margin-top: 20px;
+    justify-content:start ;
+    display:flex;
+    flex-direction: column;
 }

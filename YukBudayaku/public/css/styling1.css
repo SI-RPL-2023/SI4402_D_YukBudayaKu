@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.nav  a {
+    color: black;
+}
+.header {
+    display: flex;
+    margin: auto;
+    padding: 20px 0px;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .logo {
+    color: black;
+    font-weight: bold;
+    height: 100%;
+    
+}
+
+.header .nav ul {
+    display: flex;
+    align-items:center;
+    padding-left: 20px;
+}
+
+.header .nav li a img {
+    height: 25px;
+    width: 25px;
+}
+
+.hero {
+    background-image: url(/YukBudayaku/public/img/Landingpage/hero.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    height: 400px;
+}
+
+.hero .container {
+    width: 30%;
+    padding: 100px 0px;
+    margin-left: 15%;
+    margin-top: 20px;
+    justify-content:start ;
+    display:flex;
+    flex-direction: column;
+}
+
+.showcase {
+    width: 70%;
+    margin: auto;
+    padding: 50px 0px;
+
+}
+
+
+.showcase .container {
+    display: flex;
+    flex: auto;
+    margin-top: 20px;
+    padding-top:20px ;
+    align-items: center;
+    justify-content:space-between ;
+    
+ 
+}
+
+.showcase .container .card .card-body {
+    background-color: #2B3030;
+    color: #fff;
+    font: bold;
+    max-height: 300px;
+    overflow:hidden;
+    display: grid;
+}
+
+.showcase .container .card > img {
+    object-fit: cover;
+}
+
+
+.abt {
+    background-color: black;
+    color: #fff;
+    height: 600px;
+}
+
+.abt .container {
+    width: 70%;
+    padding: 150px 0px;
+    align-items: center;
+    align-self: center;
+    justify-content:space-between;
+    display:flex;
+}
+.abt .container .about {
+    width: 50%;
+}
+
+.abt .container .video {
+    width: 30%;
+}
+.carousel {
+    background-color: #F2FAF9;
+    height: 500px;
+}
+.carousel .container {
+    width: 70%;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+}
+.carousel >img {
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer .contain {
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .contain .container p , .footer .contain  {
+    color: aquamarine;
+}
+.footer .contain .container ul {
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+
+.c-item {
+    height: 480px;
+    margin-top: 20px;
+    padding-top:20px ;
+    background: white;
+}
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    padding: 20px;
+  }
+
+
+  .faq_body, .head{
+    max-width: 600px;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.faq_body{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+summary{
+    background-color: #F5B963;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+summary:hover{
+    background-color: #F5B963;
+}
+
+details[open=""] > summary{
+    background-color: #F5B963;
+}
+
+details div{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.hero2 {
+    background-image: url(/YukBudayaku/public/img/Landingpage/hero2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.hero2 .container {
+    width: 30%;
+    padding: 100px 0px;
+    margin-left: 15%;
+    margin-top: 20px;
+    justify-content:start ;
+    display:flex;
+    flex-direction: column;
+}

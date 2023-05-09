@@ -77,6 +77,16 @@
         </div>
       </section>
 
+      <section class="section text">
+        <div class="short-text">
+          <h3>{{ $lesson->title }}</h3>
+          <p>
+            <br>
+            {{ $lesson->full_text }}
+          </p>
+        </div>
+      </section>
+
       <section class="section question">
         <div class="question-data">
         @if ($purchased_course)

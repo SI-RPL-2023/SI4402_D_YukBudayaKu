@@ -113,9 +113,8 @@
                   <i class="bx bxs-quote-alt-left"></i>
                 </div>
                 <p class="testimonial-description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                  labore reiciendis laboriosam quos at eum, sed sequi tempore
-                  perspiciatis magnam iste quas sit minima provident!
+                  Membangun proyek ini adalah pengalaman yang cukup mengesankan dan sekaligus melelahkan. 
+                  Tapi saya berharap proyek ini dikembangkan lebih jauh
                 </p>
                 <h3 class="testimonial-date">April 27, 2023</h3>
 
@@ -143,7 +142,7 @@
                   labore reiciendis laboriosam quos at eum, sed sequi tempore
                   perspiciatis magnam iste quas sit minima provident!
                 </p>
-                <h3 class="testimonial-date">March 27, 2021</h3>
+                <h3 class="testimonial-date">April 27, 2023</h3>
 
                 <div class="testimonial-profile" style="justify-content: center;flex-direction: column;row-gap: 1.4rem;">
                   <img
@@ -205,11 +204,11 @@
               Newsletter
             </h2>
             <p class="newsletter-description">
-              Be the first to know the new course and discount.
+              Dapatkan berita terbaru melalui email anda
             </p>
           </div>
 
-          <form action="" class="newsletter-subscribe">
+          <form action="POST" class="newsletter-subscribe">
             <input
               type="email"
               placeholder="Enter your email"

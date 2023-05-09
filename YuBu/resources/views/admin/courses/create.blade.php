@@ -43,7 +43,7 @@
                 @endif
             </div>
             <div class="form-group {{ $errors->has('slug') ? 'has-error' : '' }}">
-                <label for="description">Desccription*</label>
+                <label for="description">Description*</label>
                 <textarea id="desccription" name="description" rows="5" class="form-control" value="{{ old('description', isset($course) ? $course->description : '') }}" required>
                 </textarea>
                 @if($errors->has('slug'))

@@ -33,6 +33,9 @@
             <li class="nav-item">
               <a href="{{ route('courses.index') }}" class="nav-link">Course</a>
             </li>
+            <li class="nav-item">
+              <a href="/articel" class="nav-link">Articel</a>
+            </li>
             @auth
               @if(auth()->user()->isAdmin())
                 <li class="nav-item">

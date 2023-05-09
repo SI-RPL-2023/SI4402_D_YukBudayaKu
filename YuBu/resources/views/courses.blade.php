@@ -37,8 +37,8 @@
             @empty
                 <h2 style="text-align: center;grid-column: 1/5">You haven't purchased course yet</h2>
             @endforelse
-            </div>
-      </section>
+        </div>
+    </section>
 
     <section class="products section container" id="course">
         <h2 class="section-title">All Course</h2>
@@ -98,5 +98,5 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 @endsection

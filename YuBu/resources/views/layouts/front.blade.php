@@ -145,13 +145,13 @@
           <h3 class="footer-title">Menu</h3>
           <ul class="footer-links">
             <li>
-              <a href="#" class="footer-link">Home</a>
+              <a href="{{ route('home') }}" class="footer-link">Home</a>
             </li>
             <li>
-              <a href="#" class="footer-link">Course</a>
+              <a href="{{ route('courses.index') }}" class="footer-link">Course</a>
             </li>
             <li>
-              <a href="#" class="footer-link">Articel</a>
+              <a href="/articel" class="footer-link">Articel</a>
             </li>
           </ul>
         </div>
@@ -160,10 +160,10 @@
           <h3 class="footer-title">Account</h3>
           <ul class="footer-links">
             <li>
-              <a href="#" class="footer-link">Register</a>
+              <a href="{{ route('register') }}" class="footer-link">Register</a>
             </li>
             <li>
-              <a href="#" class="footer-link">Login</a>
+              <a href="{{ route('login') }}" class="footer-link">Login</a>
             </li>
             <li>
               <a href="#" class="footer-link">FAQ</a>

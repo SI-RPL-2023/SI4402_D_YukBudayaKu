@@ -13,7 +13,7 @@
               Akses Mudah Untuk Belajar Budaya
             </h1>
             <p class="home-description">
-              Mari kita jelajahi keindahan budaya dari berbagai penjuru 
+              Mari kita jelajahi keindahan budaya dari berbagai penjuru
               Nusantara bersama kami
             </p>
             <div class="home-btns">
@@ -80,7 +80,7 @@
               </a>
               </article>
             @endforeach
-    
+
             </div>
             <div
               class="swiper-button-next"
@@ -113,7 +113,7 @@
                   <i class="bx bxs-quote-alt-left"></i>
                 </div>
                 <p class="testimonial-description">
-                  Membangun proyek ini adalah pengalaman yang cukup mengesankan dan sekaligus melelahkan. 
+                  Membangun proyek ini adalah pengalaman yang cukup mengesankan dan sekaligus melelahkan.
                   Tapi saya berharap proyek ini dikembangkan lebih jauh
                 </p>
                 <h3 class="testimonial-date">April 27, 2023</h3>
@@ -164,9 +164,7 @@
                   <i class="bx bxs-quote-alt-left"></i>
                 </div>
                 <p class="testimonial-description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                  labore reiciendis laboriosam quos at eum, sed sequi tempore
-                  perspiciatis magnam iste quas sit minima provident!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <h3 class="testimonial-date">March 27, 2021</h3>
 

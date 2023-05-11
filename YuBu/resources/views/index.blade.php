@@ -138,9 +138,7 @@
                   <i class="bx bxs-quote-alt-left"></i>
                 </div>
                 <p class="testimonial-description">
-                  Lorem ipsum sit amet adipisicing. In,
-                  labore reiciendis laboriosam quos at eum, sed sequi tempore
-                  perspiciatis magnam iste quas sit minima provident!
+                  Belajar bahasa daerah menggunakan YuBu menjadi lebih mudah!
                 </p>
                 <h3 class="testimonial-date">April 27, 2023</h3>
 
@@ -152,9 +150,9 @@
                   />
 
                   <div class="testimonial-profile-data">
-                    <span class="testimonial-profile-name">John Doe</span>
+                    <span class="testimonial-profile-name">Demitria Mayana A</span>
                     <span class="testimonial-profile-detail"
-                      >Director of a Company</span
+                      >Analyst</span
                     >
                   </div>
                 </div>

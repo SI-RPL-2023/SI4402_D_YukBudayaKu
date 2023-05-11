@@ -8,10 +8,10 @@
         <div class="card" style="width: 18rem;">
             <img src="{{ asset('frontend/assets/images/goals.jpg') }}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h3>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3>70 Bahasa Bugis dan Artinya</h5>
+                <p>Bahasa Bugis dan artinya perlu kamu pahami, terutama bagi kamu yang tinggal di lingkungan orang-orang yang mendiami pulau Sulawesi ini. Orang-orang dengan suku Bugis biasanya bisa kamu temui di Makassar dan sekitarnya.</p>
                 <br>
-                <a class="button btn-small" href="#" role="button">Link</a>
+                <a class="button btn-small" href="https://www.liputan6.com/hot/read/5187403/70-bahasa-bugis-dan-artinya-dari-kosakata-hingga-contoh-kalimatnya" role="button">Link</a>
             </div>
         </div>
     </section>

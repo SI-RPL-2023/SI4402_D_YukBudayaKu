@@ -138,7 +138,7 @@
                   <i class="bx bxs-quote-alt-left"></i>
                 </div>
                 <p class="testimonial-description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                  Lorem ipsum sit amet adipisicing. In,
                   labore reiciendis laboriosam quos at eum, sed sequi tempore
                   perspiciatis magnam iste quas sit minima provident!
                 </p>

@@ -204,13 +204,13 @@
             </p>
           </div>
 
-          <form action="POST" class="newsletter-subscribe">
+          <form action="" class="newsletter-subscribe">
             <input
               type="email"
               placeholder="Enter your email"
               class="newsletter-input"
             />
-            <button class="button">BUTTON</button>
+            <a href="/" class="button">BUTTON</a>
           </form>
         </div>
       </section>

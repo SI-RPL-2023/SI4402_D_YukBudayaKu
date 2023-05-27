@@ -29,7 +29,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-            <span class="navbar-brand-full">Admin</span>
+            <span class="navbar-brand-full">YuBu</span>
             <span class="navbar-brand-minimized">Panel</span>
         </a>
         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
@@ -49,8 +49,6 @@
                     </div>
                 </li>
             @endif
-
-
         </ul>
     </header>
 

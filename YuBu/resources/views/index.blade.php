@@ -138,6 +138,30 @@
                   <i class="bx bxs-quote-alt-left"></i>
                 </div>
                 <p class="testimonial-description">
+                  Belajar bahasa daerah menggunakan YuBu menjadi lebih mudah!
+                </p>
+                <h3 class="testimonial-date">April 27, 2023</h3>
+
+                <div class="testimonial-profile" style="justify-content: center;flex-direction: column;row-gap: 1.4rem;">
+                  <img
+                    src="{{ asset('frontend/assets/images/testimonial1.jpg') }}"
+                    alt=""
+                    class="testimonial-profile-img"
+                  />
+
+                  <div class="testimonial-profile-data">
+                    <span class="testimonial-profile-name">Demitria Mayana A</span>
+                    <span class="testimonial-profile-detail"
+                      >Analyst</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card swiper-slide" style="text-align: center;">
+                <div class="testimonial-quote">
+                  <i class="bx bxs-quote-alt-left"></i>
+                </div>
+                <p class="testimonial-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
                   labore reiciendis laboriosam quos at eum, sed sequi tempore
                   perspiciatis magnam iste quas sit minima provident!
@@ -208,13 +232,13 @@
             </p>
           </div>
 
-          <form action="POST" class="newsletter-subscribe">
+          <form action="" class="newsletter-subscribe">
             <input
               type="email"
               placeholder="Enter your email"
               class="newsletter-input"
             />
-            <button class="button">BUTTON</button>
+            <a href="/" class="button">BUTTON</a>
           </form>
         </div>
       </section>

@@ -166,7 +166,7 @@
               <a href="{{ route('login') }}" class="footer-link">Login</a>
             </li>
             <li>
-              <a href="#" class="footer-link">FAQ</a>
+              <a href="/faq" class="footer-link">FAQ</a>
             </li>
           </ul>
         </div>

@@ -56,7 +56,7 @@ details[open] div{
     <div class="container">
         <h1>Frequently Asked Questions</h1>
         <details>
-            <summary>How do I create accordion?</summary>
+            <summary>How do i create account?</summary>
             <div class="expand">
                 The tags <em>details</em> and <em>summary</em> have you covered.
             </div>

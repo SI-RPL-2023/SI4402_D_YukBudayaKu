@@ -68,7 +68,7 @@ details[open] div{
         <details>
             <summary>Apa keuntungan menggunakan Web YuBu : Yuk BudayaKu?</summary>
             <div class="expand">
-            Belajar budaya dengan budayawan langsung, belajar lebih dalam mengenai budaya Indonesia, memberikan kemudahan akses belajar budaya.
+            Belajar budaya dengan budayawan langsung, belajar lebih dalam mengenai budaya Indonesia dan memberikan kemudahan akses belajar budaya.
             </div>
         </details>
     </div>

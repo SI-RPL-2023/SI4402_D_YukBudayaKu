@@ -56,18 +56,19 @@ details[open] div{
     <div class="container">
         <h1>Frequently Asked Questions</h1>
         <details>
-            <summary>How do i create account?</summary>
+            <summary>Apa itu YuBu : Yuk BudayaKu?</summary>
             <div class="expand">
-                The tags <em>details</em> and <em>summary</em> have you covered.
+            YuBu: Yuk BudayaKu merupakan website yang mengedukasi masyarakat agar lebih melek terhadap budaya, 
+            meningkatkan kesadaran budaya, melestarikan kebudayaan Indonesia, dan mempermudah akses informasi budaya. 
             </div>
         </details>
     </div>
     <div class="container">
         <h1>Frequently Asked Questions</h1>
         <details>
-            <summary>How do I create accordion?</summary>
+            <summary>Apa keuntungan menggunakan Web YuBu : Yuk BudayaKu?</summary>
             <div class="expand">
-                The tags <em>details</em> and <em>summary</em> have you covered.
+            Belajar budaya dengan budayawan langsung, belajar lebih dalam mengenai budaya Indonesia, memberikan kemudahan akses belajar budaya.
             </div>
         </details>
     </div>

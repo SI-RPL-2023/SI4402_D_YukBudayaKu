@@ -115,7 +115,7 @@
 
                         <div class="testimonial-profile-data">
                             <span class="testimonial-profile-name">Aebil Taskari Rusydi</span>
-                            <span class="testimonial-profile-detail">Project</span>
+                            <span class="testimonial-profile-detail">Project Manager</span>
                         </div>
                     </div>
                 </div>

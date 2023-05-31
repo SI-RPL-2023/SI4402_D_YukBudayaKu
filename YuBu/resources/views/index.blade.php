@@ -104,7 +104,7 @@
                     </div>
                     <p class="testimonial-description">
                         Membangun proyek ini adalah pengalaman yang cukup mengesankan dan sekaligus melelahkan.
-                        Tapi saya berharap proyek ini dikembangkan lebih jauh
+                        Tapi saya berharap proyek ini dapat berjalan dengan baik dan dikembangkan lebih jauh
                     </p>
                     <h3 class="testimonial-date">April 27, 2023</h3>
 
@@ -115,7 +115,7 @@
 
                         <div class="testimonial-profile-data">
                             <span class="testimonial-profile-name">Aebil Taskari Rusydi</span>
-                            <span class="testimonial-profile-detail">Project Manager</span>
+                            <span class="testimonial-profile-detail">Project</span>
                         </div>
                     </div>
                 </div>

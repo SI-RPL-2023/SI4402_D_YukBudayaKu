@@ -34,7 +34,7 @@
               <a href="{{ route('courses.index') }}" class="nav-link">Course</a>
             </li>
             <li class="nav-item">
-              <a href="/articel" class="nav-link">Articel</a>
+              <a href="/article" class="nav-link">Article</a>
             </li>
             @auth
               @if(auth()->user()->isAdmin())
@@ -151,7 +151,7 @@
               <a href="{{ route('courses.index') }}" class="footer-link">Course</a>
             </li>
             <li>
-              <a href="/articel" class="footer-link">Articel</a>
+              <a href="/article" class="footer-link">Article</a>
             </li>
           </ul>
         </div>

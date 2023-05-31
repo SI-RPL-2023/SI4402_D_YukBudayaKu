@@ -75,18 +75,19 @@ details[open] div{
     <div class="container">
         <h1>Frequently Asked Questions</h1>
         <details>
-            <summary>How do I create accordion?</summary>
+            <summary>Apakah YuBu menyediakan kursus atau pelajaran interaktif ?</summary>
             <div class="expand">
-                The tags <em>details</em> and <em>summary</em> have you covered.
+             Ya, situs ini meyediakan beragam kursus dan pelajaran interaktif yang dapat anda ikuti. Kami menawarkan modul pembelajaran terstruktur, vidio 
+             pembelajaran dan latihan soal. Dengan kursus ini anda dapat memperdalaman anda tentang budaya dan meningkatkan keterampilan anda secara efektif.   
             </div>
         </details>
     </div>
     <div class="container">
         <h1>Frequently Asked Questions</h1>
         <details>
-            <summary>How do I create accordion?</summary>
+            <summary>Apakah ada biaya untuk mengakses kursus YuBu?</summary>
             <div class="expand">
-                The tags <em>details</em> and <em>summary</em> have you covered.
+            Ya, Untuk mengakses konten dan layanan kursus ada biaya terkait.
             </div>
         </details>
     </div>

@@ -199,7 +199,7 @@
                     class="testimonial-profile-img" />
 
                 <div class="testimonial-profile-data">
-                    <span class="testimonial-profile-name">Caesyerra  Fatimah</span>
+                    <span class="testimonial-profile-name">Caesyerra Siti Fatimah</span>
                     <span class="testimonial-profile-detail">Programmer</span>
                 </div>
             </div>

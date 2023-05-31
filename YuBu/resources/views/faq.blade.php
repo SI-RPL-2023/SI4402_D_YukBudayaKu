@@ -90,7 +90,7 @@
         <details>
             <summary>Apakah ada biaya untuk mengakses kursus YuBu?</summary>
             <div class="expand">
-                Ya, Untuk mengakses konten dan layanan kursus.
+                Ya, Untuk mengakses konten dan layanan kursus ada biaya terkait.
             </div>
         </details>
     </div>
